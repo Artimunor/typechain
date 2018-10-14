@@ -1,0 +1,21 @@
+{
+  "name": "typechain",
+  "version": "0.0.9",
+  "description": "A blockchain implementation in typescript",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc -w -pretty",
+    "test": "jasmine-ts \"test/**/*.spec.ts\"",
+    "exe": "node build/index.js"
+  },
+  "author": "Daniel de Witte",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.11.7"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "jasmine-ts": "^0.2.1",
+    "typescript": "^3.1.3"
+  }
+}

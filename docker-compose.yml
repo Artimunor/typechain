@@ -1,0 +1,21 @@
+version: "3.2"
+
+services:
+
+  node01:
+    build: .
+    environment:
+      PORT: 8090
+    ports: ["8090:8090"]
+
+  node02:
+    build: .
+    environment:
+      PORT: 8091
+    ports: ["8091:8091"]
+
+  node03:
+    build: .
+    environment:
+      PORT: 8092
+    ports: ["8092:8092"]
